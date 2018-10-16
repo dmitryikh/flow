@@ -3,7 +3,7 @@ import rss_app
 from setuptools import setup, find_packages
 import sys
 
-if sys.version_info < (3,5):
+if sys.version_info < (3, 5):
     sys.exit('Sorry, Python < 3.5 is not supported')
 
 setup(

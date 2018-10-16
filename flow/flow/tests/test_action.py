@@ -43,6 +43,7 @@ class FieldTransformTest(TestCaseWithData):
         d_true['hello'] = d_true['hello'].upper()
         self.assertEqual(d_true, a(self.data))
 
+
 class LambdaTest(TestCaseWithData):
     def test_non_callable(self):
         for arg in [{}, [1, 'abc'], 'string']:

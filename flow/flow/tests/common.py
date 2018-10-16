@@ -1,6 +1,7 @@
 import unittest
 from flow import ORMSessionBase
 
+
 class ORMSessionMockup(ORMSessionBase):
     """
     Fake session which holds all results in attributes `added` and `commited`

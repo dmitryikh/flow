@@ -9,6 +9,7 @@ import unittest
 from ..model import Base, Tag, Post, User
 from ..workflow import feed_extractor
 
+
 class RssFeedTest(unittest.TestCase):
     def read_xml(self, filename):
         f = open(filename)
